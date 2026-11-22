@@ -1,0 +1,43 @@
+EDUCATION INSTITUTE MANAGEMENT SYSTEM
+=====================================
+
+LOGIN
+-----
+User ID : admin
+Password: admin123
+Login successful. Welcome, admin!
+
+OPTION 2: VIEW ALL STUDENTS
+
+ID     NAME                 FEES       PAID   COURSE RESULT
+---------------------------------------------------------------
+1001   Aarav Sharma         25000.00   Yes    DS     Excellent
+1002   Priya Das            28000.00   Yes    AI     Good
+1003   Rahul Sen            25000.00   No     -      Pending
+1004   Ananya Roy           30000.00   Yes    Web    Fail
+1005   Rohan Dey            27000.00   Yes    ML     Excellent
+
+Total: 5
+
+
+OPTION 9: COURSE-WISE REPORT
+
+COURSE   ENROLLED  EXCELLENT  GOOD   FAIL   PEND
+---------------------------------------------------
+DS       1         1          0      0      0
+AI       1         0          1      0      0
+ML       1         1          0      0      0
+Web      1         0          0      1      0
+
+
+OPTION 0: LOGOUT
+
+Logged out. Goodbye!
+
+
+NOTES
+-----
+1. Five sample students are stored in the dataset.
+2. Rahul Sen has not paid the fees, so no course is allotted.
+3. The other four students have paid their fees and received one course each.
+4. This is an illustrative sample output; spacing may vary by terminal.
